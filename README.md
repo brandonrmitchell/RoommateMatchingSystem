@@ -10,14 +10,15 @@ Roommate Matching System
   2. Generate ssh key: `ssh-keygen -t rsa`
     * Hit enter a couple of times - you will most likely not want a password and the default location is fine
   3. Retrieve your new key
-    * Navigate to the new key's location - *C:/Users/<user>/.ssh
+    * Navigate to the new key's location - *C:/Users/<user>/.ssh*
     * Open **id_rsa.pub** with Notepad
     * Select all and copy to clipboard
   4. Add the key to your GitHub account
     * Go to your GitHub account settings
     * Select *SSH keys* on the left
     * Choose *New SSH key* at the top
-      * Title is a simple name for you to recognise which computer the key belongs to
+    * Title is a simple name for you to recognise which computer the key belongs to
     * Paste the key in the *Key* box
-    * **If the key contains *<user>@computer* at the end, you must remove it**
+    * **If the key contains *username@computer* at the end, you must remove it**
     * Click *Add SSH key*
+4. Clone project repository

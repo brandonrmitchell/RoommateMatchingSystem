@@ -1,4 +1,5 @@
 Roommate Matching System
+
 ========================
 
 ### Git setup notes:
